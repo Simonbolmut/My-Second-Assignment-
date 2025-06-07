@@ -1,0 +1,84 @@
+Functional vs. Non-Functional Testing
+✅ Functional Testing
+Focuses on what the system does.
+
+Purpose: Validate the software’s functionality against requirements.
+
+Examples:
+
+Unit Testing
+
+Integration Testing
+
+System Testing
+
+Acceptance Testing
+
+🛠️ Example: Checking if the login button correctly logs in users with valid credentials.
+
+⚙️ Non-Functional Testing
+Focuses on how the system performs.
+
+Purpose: Assess performance, usability, reliability, etc.
+
+Examples:
+
+Performance Testing
+
+Load Testing
+
+Security Testing
+
+Usability Testing
+
+🚀 Example: Ensuring the application loads within 2 seconds under heavy traffic.
+
+2. Unit Testing vs. Integration Testing
+🔬 Unit Testing
+Scope: Tests individual components or functions.
+
+Who: Usually done by developers.
+
+Goal: Detect bugs early at the smallest level.
+
+Tools: JUnit (Java), PyTest (Python)
+
+🧩 Example: Testing a function that calculates discounts on a shopping cart.
+
+🏗️ Integration Testing
+Scope: Tests interaction between components or systems.
+
+Goal: Ensure modules work together as expected.
+
+Types:
+
+Top-down
+
+Bottom-up
+
+Big Bang
+
+🔗 Example: Testing if the user profile page pulls data correctly from the database.
+
+3. System Testing vs. Acceptance Testing
+🖥️ System Testing
+Scope: Complete end-to-end testing of the integrated system.
+
+Goal: Verify the system meets specified requirements.
+
+Types: Functional + Non-functional tests.
+
+Performed by: QA team.
+
+🌐 Example: Testing the entire e-commerce platform workflow from browsing to payment.
+
+🏆 Acceptance Testing
+Scope: Validates the system meets business needs and user expectations.
+
+Goal: Determine if the product is ready for release.
+
+Types:
+
+Alpha Testing (internal)
+
+Beta Testing (external/users)
